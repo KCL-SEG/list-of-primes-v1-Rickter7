@@ -11,7 +11,7 @@ def primes(number_of_primes):
                 prime = False
                 break
             i += 1
-            if prime == True:
-                list.append(x)
+        if prime == True:
+            list.append(x)
         x += 1
     return list
